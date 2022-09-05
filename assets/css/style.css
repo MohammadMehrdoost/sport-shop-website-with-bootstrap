@@ -66,15 +66,21 @@
 }
 
 @media (max-width: 767px) {}
-a{
+
+a {
     color: gray !important;
 }
+
 * {
     font-family: Vazir !important;
+    line-height: 1.7;
 }
 
 .container-fluid {
     max-width: 1224px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
 }
 
 .cyan-border {
@@ -89,15 +95,44 @@ a{
 .bg-cyan {
     background-color: #025373;
 }
-.active{
+
+.active {
     color: #025373 !important;
-    border-bottom: 2px #025373 solid ;
+    border-bottom: 2px #025373 solid;
 }
-.frame1{
+
+.frame1 {
     background-image:
-    linear-gradient(88.59deg, rgba(9, 122, 167, 0.6) -13.05%, rgba(2, 83, 115, 0.6) 126.82%),
-    url(../images/download\ 2.png);
+        linear-gradient(88.59deg, rgba(9, 122, 167, 0.6) -13.05%, rgba(2, 83, 115, 0.6) 126.82%),
+        url(../images/download\ 2.png);
     background-size: cover;
-    color: white;    
+    color: white;
     height: 464px !important;
+}
+
+.login {
+    margin-right: 15rem;
+}
+
+.search-form {
+    border-radius: 1rem;
+    background-color: white;
+    position: relative;
+    top: -2rem;
+    border: 1px solid gray;
+    box-shadow: 5px 3px 14px 0px #00000033;
+    width: 75%;
+}
+.options{
+    margin-top: -6rem;
+    background-color: #F9F9F9;
+}
+.text-option{
+    font-size: 12px;
+}
+.times{
+    color: #FC985E;
+}
+.best-suggestion{
+    background-color: #025373;
 }
