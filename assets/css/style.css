@@ -123,16 +123,56 @@ a {
     box-shadow: 5px 3px 14px 0px #00000033;
     width: 75%;
 }
-.options{
+
+.options {
     margin-top: -6rem;
     background-color: #F9F9F9;
 }
-.text-option{
+
+.text-option {
     font-size: 12px;
 }
-.times{
+
+.times {
     color: #FC985E;
 }
-.best-suggestion{
+
+.best-suggestion {
     background-color: #025373;
+}
+
+.search {
+    outline: none;
+}
+
+.bg-mygray {
+    background: #F9F9F9;
+
+}
+
+.serie-a {
+    background: #C5B783;
+}
+
+.laliga {
+    background: #FCB507;
+}
+
+.ligue1 {
+    background: #1162C9;
+}
+
+.bundesliga {
+    background: #7D7D7D;
+}
+
+.premier-league {
+    background: #EDEDED;
+}
+
+.iran-league {
+    background: #239F40;
+}
+.league-box{
+    height: 288px;
 }
