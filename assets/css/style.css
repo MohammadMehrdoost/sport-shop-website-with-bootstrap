@@ -176,3 +176,41 @@ a {
 .league-box{
     height: 288px;
 }
+a{
+    text-decoration: none !important;
+}
+.link-cyan{
+    color: #025373 !important;
+}
+.avatar{
+    border-radius: 50% !important;
+}
+.comment-name{
+    margin-right: -1rem;
+}
+.circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+.article-head{
+    font-size: 20px;
+}
+.article-footer{
+    font-size: 12px !important;
+}
+.article-avatar{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    border-radius: 50%;
+}
+.insta-photo{
+    position: absolute;
+    top: 316.7rem;
+    left: 75%;
+    max-height: 242.84px !important;
+}
+.articles{
+    margin-bottom: 7rem !important;
+
+}
