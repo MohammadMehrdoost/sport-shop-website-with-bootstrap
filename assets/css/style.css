@@ -204,13 +204,58 @@ a{
     height: 1.5rem !important;
     border-radius: 50%;
 }
-.insta-photo{
+/* .insta-photo{
     position: absolute;
     top: 316.7rem;
     left: 75%;
     max-height: 242.84px !important;
+} */
+.instagram{
+    margin-top: -6rem;
 }
 .articles{
     margin-bottom: 7rem !important;
 
+}
+.footer-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.footer-li{
+    line-height: 2;
+}
+.footer{
+    position: relative;
+}
+.nemadbox{
+    max-height: 170px !important;
+}
+.nemad1{
+    height: 150px;
+    width: 150px;   
+}
+.nemad2{
+    Width:98px;
+    height: 150px;
+}
+.footer-bg{
+    width: 100%;
+    height: 40vh !important;
+    margin-top: -10rem;
+}
+.min-width{
+    min-width: 599px;
+}
+.box-shadow{
+    box-shadow: 0px 5px 8px -3px rgba(0, 0, 0, 0.1);
+}
+.team-box{
+    max-height: 184px;
+}
+.team-img{
+    max-height: 133px;
+    
+}
+.rect-border{
+    border-right: 5px solid #025373;
 }
