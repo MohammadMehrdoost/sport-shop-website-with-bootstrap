@@ -65,7 +65,20 @@
     font-style: normal;
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .suggestion-scroll{
+        overflow-x: scroll;
+    }
+    .container-fluid {
+        max-width: 296px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    
+    }
+    .frame1 {
+        height: 180px;
+    }
+}
 
 a {
     color: gray !important;
@@ -118,7 +131,7 @@ a {
     border-radius: 1rem;
     background-color: white;
     position: relative;
-    top: -2rem;
+    top: -3rem;
     box-shadow: 5px 3px 14px rgba(0, 0, 0, 0.2);
     width: 75%;
 }
@@ -254,4 +267,16 @@ a{
 }
 .rect-border{
     border-right: 5px solid #025373;
+}
+body{
+    overflow-x: hidden !important;
+}
+.user{
+    width: 3rem !important;
+    height: 3rem !important;
+
+}
+.basket{
+    height: 3rem !important;
+    width: 3rem !important;
 }
